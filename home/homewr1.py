@@ -4,7 +4,6 @@ class Hero:
         self.nickname = nickname
         self.hp = hp
         self.damage = damage
-
     def heal(self):
         print(f'{self.nickname} heals {self.hp + 100} hit points')
 
@@ -22,7 +21,7 @@ hero2 = Hero('Logan', 'Wolverine', 200, 100)
 hero3 = Hero('Bruce', 'Hulk', 500 , 200)
 hero4 = Hero('Tony', 'Iron-Man', 300, 250)
 
-hero1.heal()
-hero2.double_damage()
-hero3.greetings()
-hero4.brand_phrase()
+# hero1.heal()
+# hero2.double_damage()
+# hero3.greetings()
+# hero4.brand_phrase()
